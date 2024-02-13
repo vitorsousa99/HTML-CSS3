@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2? family= Work+Sans:ital,wght@0,100;0,200;0,400;1,100;1,200 & display=swap');
+
+
+@font-face {
+  font-family: Love;
+  src: url(fonts/Love.ttf) format('Truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+  font-family:'Work Sans',Times,sans-serif;
+  font-size: 1em;
+  font-weight: normal;
+
+}
+h1{
+  font-family:'Love', Times, serif;
+  font-size: 3em;
+  font-weight: normal;
+}
+h2{
+  font-family: 'Love', Times, serif;
+  font-size: 2em;
+  font-weight: 100;
+}

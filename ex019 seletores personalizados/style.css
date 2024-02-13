@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+body{
+    background-color: rgba(178, 235, 235, 0.545);
+}
+
+h1{
+    color: white;
+}
+
+#principal{   /* todos que tem esse simbolo # é um id */
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+}
+
+#paragrafo{
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.clique{ /* todos que tem um . sao class*/
+    color: white;
+    background-color: blue;
+    border-radius: 30%;
+}
+
+.basico{
+    color: azure;
+    background-color:black;
+    font-weight: bold;
+}
+

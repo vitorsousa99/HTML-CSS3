@@ -1,0 +1,17 @@
+body{
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+h1{
+    color: blueviolet;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2{
+    color: lightgreen;
+}
+p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}

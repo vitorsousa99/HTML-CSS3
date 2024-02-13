@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    
+    <style>
+        body{
+            background-color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            border: 10px;
+        }
+        header{
+            background-color: aliceblue;
+            padding: 20px;
+            margin: 6px;
+            border: 4px solid black;
+            border-radius: 20px;
+
+
+        }
+
+        h1{
+            text-align: center;
+            margin: 12px;
+            box-shadow: inset 2px 2px 6px black;
+            text-shadow: 1px 1px 1px black;
+            font-weight: bold;
+            border-radius: 10px;
+
+        }
+
+        nav{
+            padding: 1px;
+            margin: 5px;
+            background-color: lightgray;
+            box-shadow:2px 2px 2px black ;
+            text-align: center;
+            border-radius: 15px;
+
+        }
+        nav > a{
+            padding: 30px;
+            text-decoration: none;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: lightsteelblue;
+        }
+
+        main{
+            background-color: lightgrey;
+            padding: 10px;
+            margin: 5px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            border-radius: 20px;
+        }
+        aside{
+            color: black;
+            font-weight: bolder;
+            text-align: center;
+
+        }
+        footer{
+            background-color: rgb(144, 142, 142);
+            padding: 10px;
+            color: white;
+            border-radius: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Notícias</h1>
+        <nav>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">Link</a>
+        </nav>
+
+    </header>
+    <main>
+        <section>
+            <article>
+                <h2>Notícias do Mundo</h2>
+                <p>Estamos a pouco tempo de uma nova guerra, um novo mundo irá começar!</p>
+                <aside>
+                    <p>Escrito por Vitor</p>
+                </aside>
+            </article>
+        </section>
+
+    </main>
+    <footer>
+     <p>Desenvolvido por Vitor Sousa.</p>
+    </footer>
+    
+</body>
+</html>

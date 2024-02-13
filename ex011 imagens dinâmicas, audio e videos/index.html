@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas</title>
+</head>
+<body>
+    <main>
+    <h1>Imagens  Dinâmicas</h1>
+    <p>Aqui estamos criando imagens dinâmicas ou seja estamos criando imagens para varios dispositivos, ex: celulares, tablet e pc.</p>
+    <p>tente aumentar e diminuir a janela do navegar do seu navegador o máximo possivel.</p>
+    <picture>
+        <source media="(max-width:700px )" srcset="imagens/imagem-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/imagem-m.png" type="image/png">
+        <img src="imagens/imagem-g.png" alt="imagem flexível">
+    </picture>
+    <h1>Aqui vamos introduzir audios na página html.</h1>
+    <p>Outra maneira de fazer é utilizando o source</p>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/Little Umbrellas - TrackTribe.mp3" type="audio/mpeg">
+        <source src="midia/Little Umbrellas - TrackTribe.ogg" type="audio/ogg">
+        <source src="midia/Little Umbrellas - TrackTribe.wav" type="audio/wav"><!--não recomendavel-->
+        <p>Infelizmente seu navegador não consegue reproduzir audio, <a href="midia/Little Umbrellas - TrackTribe.mp3">clique aqui para baixar o audio.</a> </p>
+                </audio>
+
+            </main>
+</body>
+</html>

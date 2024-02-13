@@ -1,0 +1,33 @@
+*{ /*configuração global da css*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: linear-gradient(to bottom, #4b6bf8b6,#122da5e0);
+    background-attachment: fixed;
+}
+
+main{
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 4px 15px #0b185192;
+}
+
+h1{
+    text-align: center;
+    color: #035AA6;
+    text-shadow: 1px 1px 2px #03386694;
+
+}
+
+h2{
+    color: #7a8fa9d4;
+}
+
+
+p{
+    text-align: justify;
+
+}

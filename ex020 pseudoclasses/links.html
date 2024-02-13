@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        a{
+            text-decoration: none;
+        }
+
+        a:hover{ /* sublinhado quando o mouse passa por cima, e cor violeta quando o cursor passa por cima*/
+            text-decoration: underline;
+            color: blueviolet;
+        }
+        a:visited{ /*  mostra a cor do link quando o mesmo for visitado no caso lightseagreen*/
+            color: lightseagreen;
+        }
+        a:active{ /* mostra a cor do link quando voce clica nele nesse caso preto*/
+            color: black;
+        }
+
+        a::after{ /* coloca a paravra link depois do link no content(conteudo) na cor cinza */
+            content: ' [link]';
+            color: gray;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>links</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io" target="_blank">repositório aulas.</a></li>
+        <li><a href="https://cursoemvideo.com" target="_blank">curso.</a></li>
+    </ul>
+    
+</body>
+</html>

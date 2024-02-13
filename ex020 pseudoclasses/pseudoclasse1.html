@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudoclasses</title>
+    <style>
+        div:hover{ /* hover muda as coisas quando passa p mouse por cima do objeto */
+            color: red;
+      }
+      div > p{ /* uma div com uma classe filha tirando ela  da tela com none*/
+        display: none;
+      }
+      div:hover > p{ /* mostrando a classe filha com  hover*/
+        display: block;
+        font-weight: bolder;
+      }
+
+    </style>
+</head>
+<body>
+    <p>Aqui abaixo tem uma div.</p>
+    <div>aqui está uma div.</div>
+     <!--div com classe filha -->
+    <div>
+        aqui uma div com uma filha p. 
+        <p>HELP.</p>
+    </div>
+    
+</body>
+</html>
